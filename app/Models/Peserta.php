@@ -16,6 +16,8 @@ class Peserta extends Model
         'nisn',
         'nama',
         'nis',
+        'email',
+        'no_hp',
         'jenis_kelamin',
         'agama',
         'alamat',

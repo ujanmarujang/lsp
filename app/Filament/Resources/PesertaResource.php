@@ -51,6 +51,7 @@ class PesertaResource extends Resource
                                     'Konghucu' => 'Konghucu',
                                 ])
                                 ->required(),
+                            TextInput::make('email')->required()->unique(),
                             Select::make('tahun_masuk')
                                 ->label('Tahun Masuk')
                                 ->options(
